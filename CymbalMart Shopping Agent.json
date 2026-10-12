@@ -1,0 +1,34 @@
+{
+  "agentName": "CymbalMart Shopping Agent",
+  "version": "1.0.0",
+  "brand": "CymbalMart",
+  "description": "Party Planner Shopping Agent for CymbalMart converting busy host event intent into a curated, budget-conscious grocery and supplies list.",
+  "criticalUserJourney": {
+    "user": "Busy hosts needing event planning",
+    "goal": "Convert intent into a curated, budget-conscious shopping list",
+    "tasks": [
+      {
+        "step": 1,
+        "name": "Define event",
+        "description": "Define party type, theme, budget, guest count, and special requests."
+      },
+      {
+        "step": 2,
+        "name": "Review list",
+        "description": "Align items with the total budget, review CymbalMart aisle locations, member rollbacks, and portion calculations."
+      },
+      {
+        "step": 3,
+        "name": "Refine & Checkout",
+        "description": "Adjust for dietary constraints and budget cuts, select fulfillment (1-Hour Delivery, Curbside Pickup, or In-Store Mode), and finalize order."
+      }
+    ]
+  },
+  "defaultFulfillment": "CymbalMart Express Curbside Pickup #104",
+  "loyaltyProgram": "CymbalMart Rewards Plus",
+  "estimatedGuestPortions": {
+    "icePerPersonLbs": 1.5,
+    "drinksPerHourRate": "2 first hour, 1 subsequent hours",
+    "tablewareBufferPct": 25
+  }
+}
